@@ -1,0 +1,25 @@
+.navbar-container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+  padding: 5px;
+  background-color: aliceblue;
+
+  .nav-logo-container {
+    .navlogo {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .nav-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    .nav-link {
+      cursor: pointer;
+    }
+  }
+}
